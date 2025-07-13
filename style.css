@@ -59,6 +59,12 @@ body {
   top: 50%;
   left: -30px;
 }
+.quote-box div {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
 .quote-box button {
   background: rgb(229, 23, 23);
   color: #fff;
@@ -71,4 +77,12 @@ body {
   justify-content: center;
   margin: 5px;
   cursor: pointer;
+}
+.quote-box button img {
+  width: 25px;
+  margin-right: 10px;
+}
+.quote-box button:nth-child(2) {
+  background: transparent;
+  color: rgb(255, 255, 255);
 }

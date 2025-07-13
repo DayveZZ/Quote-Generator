@@ -9,11 +9,13 @@
   <body>
     <div class="quote-box">
       <h2>Quote os the day</h2>
-      <blockquote>Loading...</blockquote>
-      <span>Loading...</span>
+      <blockquote id="quote">Loading...</blockquote>
+      <span id="author">Loading...</span>
       <div>
-        <button>New Quote</button>
-        <button>Tweet</button>
+        <button onclick="getquote(apiUrl)">New Quote</button>
+        <button onclick="tweet()">
+          <img src="assets/x.com.png" alt="" />Tweet
+        </button>
       </div>
     </div>
     <script src="app.js"></script>
